@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revising html</title>
+    <style>
+        .names{
+            color: red;            
+        }
+    </style>
+</head>
+<body>
+    <h1>html element</h1>
+    <h2>h1-(36px) h2-(30px) h3-(24px) h4-(18px) h5-(14px) h6-(12px)</h2><hr>
+    <h3>These are text formatting</h3>
+    <p><b> &lt;b&gt; bold tag &lt;/b&gt;</b></p>
+    <p>&quot; Quotes of the day &quot;</p>
+    <p>me &amp; pooja</p>
+    <br>
+    <hr>
+    <p>This is my name &lt;strong&gt; <strong>omprakash</strong> &lt;/strong&gt;</p>
+    <hr>
+    <p>This is italic <i>tag</i></p>
+    <p>This is em <em>tag</em></p><hr>
+    <mark>This is the marked test</mark><hr>
+    <small>This is small text</small><hr>
+    <p>This is del tag &lt;del&gt; tag</p>
+    only Rs.<del>299</del> 199 <hr>
+    <p>This is sub scripts</p>
+    <h1>H<sub>2</sub>SO <sub>4</sub></h1>
+    <h1>H<sub>2</sub>O<sub>2</sub></h1>
+    <p>This is super script</p>
+    <h1>a<sup>2</sup>+b<sup>2</sup></h1>
+    <h1>(a+b)<sup>3</sup>=a<sup>3</sup>+b<sup>3</sup>+2a<sup>2</sup>b+2ab<sup>2</sup></h1>
+    <hr>
+    <p>This left to right text using &lt;bdo&gt; tag and dir="rtl"</p>
+    <bdo dir="ltr">This is left to right text</bdo><br>
+    <bdo dir="rtl">This is right to left text</bdo><br>
+    <bdo dir="rtl">txet tfel ot thgir si sihT</bdo><hr>
+    <p>This is Anchor Tag link one page to another</p>
+    <a href="https://www.instagram.com/its_me.omprakash/" title="visit my site" target="_blank" style="text-decoration: none;">Visit Instagram </a>
+    <a href="">&raquo;</a>
+    <hr>
+    <p>How to link mobile no. and email</p>
+    <a href="tel:9392744029" title="click to call" style="text-decoration: none;">+91 9392744029</a><br>
+    <a href="mailto:ram.12010348@lpu.in" title="click to mail us" style="text-decoration: none;">ram.12010348@lpu.in</a><br>
+    <a href="mailto:omprakashpandit524@gmail.com" style="text-decoration: none;">omprakashpandit524@gmail.com</a><br>
+    <hr>
+    <p>how to make pdf downloadable</p>
+    <a href="Competitive Programming.pdf" download title="click to download" target="_blank" style="text-decoration: none;">download cp book</a><hr>
+    <p>This is image tag</p>
+    <img width="400" height="200" src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="html image">
+    <br>
+    <p>Clickable image</p>
+    <a href="https://unsplash.com/s/photos/cofee" target="_blank"><img width="400" height="" src="./image/cofee.jpg" alt=""><br>
+    </a>
+    <br>
+    <p>figure caption</p>
+    <figure>
+        <img src="./derek_.jpg" alt="i am derek of chhichhore">
+        <figcaption>I am actor</figcaption>
+    </figure>
+
+    <hr>
+    <p>semantic element</p>
+    <ol>
+    <li>header</li>
+    <li>nav</li>
+    <li>main</li>
+    <li>section</li>
+    <li>table</li>
+    <li>form</li>
+    <li>footer</li></ol>
+    <p>non semantic element</p>
+    <ul>
+        <ul><li>div</li>
+        <li>span</li></ul>
+    </ul>
+    <p>div is just like a container</p>
+    <p>span is for inline element for adding <span style="color: red;">color</span>  and background color on text</p>
+    <hr>
+    <p>ordered and unordered list</p>
+    <div>in unordered list by default we get disc but we can change to disc, circle and square </div>
+    <ul style="list-style-type:square;">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <p>this is ordered list</p>
+    <ol type="a"> <!--we can also use a, i, I -->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- Practice set -->
+    <ul style="list-style-type: square;">
+        <li>HTML
+            <ul>
+                <li>HTML Semantic Layout</li>
+                <li>Semantic Element
+                    <ol>
+                        <li>Header</li>
+                        <li>Footer</li>
+                    </ol>
+                    <li>Non Semantic Element</li>
+                    <ol>
+                        <li>Div</li>
+                        <li>Span</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <hr>
+    <p>Tables</p>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th colspan="7">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="7">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thr</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <td>Phy</td>
+                <td>Math</td>
+                <td>Math</td>
+                <td>Che</td>
+                <td>Math</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Phy</td>
+                <td>Math</td>
+                <td>Math</td>
+                <td>Che</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Math</td>
+                <td>Phy</td>
+                <td>Math</td>
+                <td>Phy</td>
+                <td>Sanskrit</td>
+            </tr>
+            <tr>
+                <th colspan="6" >Lunch</th>
+            </tr>
+            <tr>
+                <td>Che</td>
+                <td>Phy</td>
+                <td>Math</td>
+                <td>Che</td>
+                <td>Phy</td>
+                <td rowspan="2">Games</td>
+                
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Phy</td>
+                <td>Math</td>
+                <td>Math</td>
+                <td>Che</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Time Table for 3<sup>rd</sup> year Student</h2>
+    <table border="1" cellspacing="0" cellpadding="5" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+        <thead>
+            <tr>
+                <th colspan="10">Time Table For Engineering Student</th>
+            </tr>
+        </thead>
+        <tbody><tr>
+            <th rowspan="2">Days</th>
+            <th colspan="9">Time</th>
+        </tr>
+            
+                <tr>
+                    <th>09:00 AM to 10:00 AM</th>
+                    <th>10:00 AM to 11:00 AM</th>
+                    <th>11:00 AM to 12:00 PM</th>
+                    <th>12:00 PM to 01:00 PM</th>
+                    <th>01:00 PM to 02:00 PM</th>
+                    <th>02:00 PM to 03:00 PM</th>
+                    <th>03:00 PM to 04:00 PM</th>
+                    <th>04:00 PM to 05:00 PM</th>
+                </tr>
+                <tr><td>Mon</td>
+                    <td><abbr title="CSE423: VIRTUALIZATION AND CLOUD COMPUTING"  style="text-decoration: none;">CSE423</abbr> </td>
+                    <td><abbr title="CSE427: VIRTUALIZATION AND CLOUD COMPUTING LABORATORY"  style="text-decoration: none;">CSE427</abbr> </td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="7">Lunch Break</td>
+                        <td></td>
+                        <td><abbr title="CSE339: CAPSTONE PROJECT-I"  style="text-decoration: none;">CSE339</abbr></td>
+                        <td></td>
+                        
+                </tr>
+                <tr><td>Tue</td>
+                    <td><abbr title="CSE423: VIRTUALIZATION AND CLOUD COMPUTING"  style="text-decoration: none;">CSE423</abbr> </td>
+                    <td></td>
+                    <td></td>
+                    <td><abbr title="INT220: SERVER SIDE SCRIPTING"  style="text-decoration: none;">INT220 </abbr> </td>
+                    <td></td>
+                    <td></td>
+                    <td><abbr title="INT221: MVC PROGRAMMING"  style="text-decoration: none;">INT221 </abbr> </td>
+
+                </tr>
+                <tr><td>Wed</td>
+                    <td></td>
+                    <td><abbr title="PEA306: ANALYTICAL SKILLS-II"  style="text-decoration: none;">PEA306 </abbr></td>
+                    <td></td>
+                    <td></td>
+                    <td><abbr title="ELC: Your respective elective course"  style="text-decoration: none;">ELC </abbr></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr><td>Thu</td>
+                    <td><abbr title="INT221: MVC PROGRAMMING"  style="text-decoration: none;">INT221 </abbr></td>
+                    <td></td>
+                    <td></td>
+                    <td><abbr title="INT221: MVC PROGRAMMING"  style="text-decoration: none;">INT221 </abbr></td>
+                    <td><abbr title="ELC: Your respective elective course"  style="text-decoration: none;">ELC </abbr></td>
+                    <td><abbr title="CSE423: VIRTUALIZATION AND CLOUD COMPUTING"  style="text-decoration: none;">CSE423</abbr> </abbr></td>
+                    <td></td>
+                </tr>
+                <tr><td>Fri</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><abbr title="CSE423: VIRTUALIZATION AND CLOUD COMPUTING"  style="text-decoration: none;">CSE423</abbr> </td>
+                    <td></td>
+                    <td></td>
+                    <td><abbr title="PEA306: ANALYTICAL SKILLS-II"  style="text-decoration: none;">PEA306 </abbr></td>
+                </tr>
+                <tr><td>Sat</td>
+                    <td><abbr title="INT221: MVC PROGRAMMING"  style="text-decoration: none;">INT221 </abbr> </td>
+                    <td></td>
+                    <td><abbr title="INT220: SERVER SIDE SCRIPTING"  style="text-decoration: none;">INT220 </abbr> </td>
+                    <td></td>
+                    <td colspan="3">Mock Interviews</td>
+                </tr>
+                <tr><td>Sunday</td>
+                    <td colspan="4">Placement Preparation</td>
+                    <td colspan="3">Campus Selection Time</td>
+                </tr>
+        </tbody>
+    </table>
+    <figcaption><a href="https://ums.lpu.in/lpuums/StudentDashboard.aspx" target="_blank" style="text-decoration: none;">Click to visit UMS</a></figcaption>
+    <br>
+    <hr>
+
+    <h2 style="font-family: lucida Sans;">Table Form</h2>
+    <form action="#">
+        <label for="username">User name : </label>
+        <input type="text" id="username" placeholder="Enter name" required><br><br>
+        <label for="email">Enter email</label>
+        <input type="email" id="email" placeholder="xyz234@gmail.com">
+    </form>
+    <h1>HTML Registration form</h1><br>
+    <form action="#">
+        <div>
+            <label for="usernme">Enter your name : </label>
+            <input type="text" placeholder="user name" name="usernme" size="10">this is readonly
+            <input type="text" placeholder="user name" value="omprakash" name="usernme" readonly disabled><br><br>
+            <label for="user1">Enter phone no. : </label>
+            <input type="text" id="user1" maxlength="10"><br><br>
+            <label for="datemax">Enter a date before 1980-01-01 : </label>
+            <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+            <label for="datemin">Enter a date after 2022-01-01 : </label>
+            <input type="date" id="datemin" name="datemin" min="2022-01-02"><br><br>
+            <label for="rate">Rating (between 1 to 5) : </label>
+            <input type="number" id="rate" name="rating" min="1" max="5"><br><br>
+            <label for="file">Select file : </label>
+            <input type="file" id="file" name="files"><br><br>
+            <label for="fileMore">Select multiple file : </label>
+            <input type="file" id="fileMore" name="multiple file" multiple><br><br>
+            <label for="autofocus">First name : </label>
+            <input type="text" id="autofocus" name="name" autofocus autocomplete="off"><br><br>
+            <input type="text" list="browser" name="browser">
+            <datalist id="browser">
+                <option value="Internet Explorer">internet explorer</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Opera">Opera</option>
+                <option value="Safari">Safari</option>
+            </datalist>
+        </div><br><br>
+        <input type="password" name="" id=""><br><br>
+        <input type="email" name="" id=""><br><br>
+        <input type="number" name="" id=""><br><br>
+        <input type="color" name="" id=""><br><br>
+        <input type="date" name="" id=""><br><br>
+        <input type="datetime" name="" id=""><br><br>
+        <input type="range" name="" id=""><br><br>
+        <input type="datetime-local" name="" id=""><br><br>
+        <!-- Select element define a drop-down list -->
+        <label for="cars">Choose a car : </label>
+        <select name="car" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="lamborghini">Lamborghini</option>
+            <option value="Audi">Audi</option>
+            <option value="safari">Safari</option>
+            <option value="fiat">Fiat</option>
+            <option value="BMW">BMW</option>
+            <option value="Bently">Bently</option>
+            <option value="Tesal">Tesla</option>
+            <option value="Ford">Ford</option>
+            <option value="Porche">Porche</option>
+            <option value="Honda">Honda</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Bugatti">Bugatti</option>
+            <option value="Rolls-Royce">Rolls-Royce</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+        </select><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <button onclick="alert('hii')">click</button><br><br>
+        <form action="/actyion_page.php">
+            <fieldset>
+                <legend>Portfolio</legend>
+                <label for="fname" class="names">First name : </label>
+                <input type="text" id="fname" name="fname" value="om"><br>
+                <label for="lname" class="names">Last name : </label>
+                <input type="text" id="lname" name="lname" value="prakash"><br>
+                <input type="submit" value="submit"><br>
+                <label for="email">Enter email : </label>
+                <input type="email" id="email"  placeholder="xyz123@gmail.com"><br>
+                <label for="dob">Enter your date of birth : </label>
+                <input type="date" id="dob" name="dob"><br>
+                <label for="gender">Select gender : </label>
+                <input type="radio">male <input type="radio">female <input type="radio">transgender <br>
+                <label for="studies">About studies : </label>
+                <input type="checkbox">Good
+                <input type="checkbox">Better
+                <input type="checkbox">Best <br><br>
+                &nbsp; <button onclick="alert('Your form is submitted')">Submit</button>
+            </fieldset>
+        </form>
+    </form><br>
+    <hr>
+    <p>iframe tag for creating nested web page</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-hVHeP-1hGc" title="YouTube video player" frameborder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <iframe width="500" height="300" src="https://www.wikipedia.org/" frameborder="0"></iframe>
+    <br><br>
+    <p>HTML video</p>
+    <video width="500" muted controls loop  src="./video/believe in yourself short video☺.mp4"></video>
+    <figcaption>Believe in yourself</figcaption>
+    <!-- autoplay -->
+    <p>HTML Audio tag</p>
+    <audio controls preload="" muted src="./audio/Teri Ungli Pakad Ke Chala Lyrical - Laadla Anil Kapoor Udit Narayan Jyotsna Hardikar [TubeRipper.com].m4a"></audio>
+    <br>
+    <p>Copy right in HTML</p>
+    <p>&nbsp;</p>
+    <p>&copy;</p>
+    <p>&alpha;</p>
+    <p>&beta;</p>
+    <p>&gamma;</p>
+    <p>&dollar;</p>
+    <p>&delta;</p>
+    <p>&amp;</p>
+    <p>&quot;</p>
+    <p>&apos;</p>
+    <p>&lt;</p>
+    <p>&gt;</p>
+    <p>&cent;</p>
+    <p>&pound;</p>
+    <p>&laquo;</p>
+    <p>&reg;</p>
+    <p>&trade;</p>
+    <p>&brvbar;</p>
+    <p>&divide;</p>
+    <p>&times;</p>
+    <p>&iquest;</p>
+    <p>&raquo;</p>
+    <p>&middot;</p>
+    <p>&par;</p>
+    <p>&para;</p>
+    <p>&micro;</p>
+    <p>&plusmn;</p>
+    <p>&deg;</p>
+
+    <br>
+<hr>
+<br><br>
+<p>SEO in HTML</p>
+    
+</body>
+</html>
